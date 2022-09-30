@@ -6,13 +6,19 @@ body {
 h1 {
     font-family: ChalkDuster;
     font-size: 60px;
+    padding: 8px;
 }
 
 p {
     font-size: 18px;
+    padding: 8px;
 }
 
-.block {
+a {
+    color: white;
+}
+
+.topblock {
     display: flex;
     background-color:palevioletred;
     height: 600px;
@@ -23,7 +29,7 @@ p {
     justify-content: center;
 }
 
-.parallax {
+.grace {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +43,7 @@ p {
     justify-content: center;
 }
 
-.block2 {
+.divider {
     display: flex;
     background-color: darkcyan;
     height: 150px;
@@ -48,7 +54,7 @@ p {
     justify-content: center;
 }
 
-.parallax2 {
+.natasha {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
