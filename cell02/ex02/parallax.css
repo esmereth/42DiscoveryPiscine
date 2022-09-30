@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    font-size: 60px;
+    color: yellowgreen;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    font-size: 60px;
+    color:white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px darkolivegreen;
+    align-items: center;
+    justify-content: center;
+}
+
+#img1{
+background-image: url("https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#img2 {
+background-image: url("https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}

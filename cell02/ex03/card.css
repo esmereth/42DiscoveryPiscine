@@ -1,0 +1,27 @@
+.card {
+    table-layout: fixed;
+    margin: auto;
+    max-width: 450px;
+    text-align: center;
+    font-family: Arial;
+    background-color: palevioletred;
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+    background-color: pink;
+    border: none;
+    text-align: center;
+}
+  
+button:hover, a:hover {
+  opacity: 0.7;
+}
