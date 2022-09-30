@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+h1 {
+    font-family: ChalkDuster;
+    font-size: 60px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.block {
+    display: flex;
+    background-color:palevioletred;
+    height: 600px;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 {
+    display: flex;
+    background-color: darkcyan;
+    height: 150px;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    font-size: 60px;
+    color:white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px darkolivegreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: black;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: white;
+}
+  
+.main {
+    margin-left: 140px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#img1{
+background-image: url("https://images.pexels.com/photos/10845119/pexels-photo-10845119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+#img2 {
+background-image: url("https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
